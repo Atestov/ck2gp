@@ -1,5 +1,3 @@
-from datetime import datetime, date, time
-
 class Person(object):
     def __init__(self, number, name, surn, sex, birt, father = "", mother = "", deat = ""):
         self.number = number
